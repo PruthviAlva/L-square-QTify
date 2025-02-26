@@ -1,0 +1,33 @@
+.carousel-container {
+  position: relative;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  left: 10px;
+  width: 5%;
+}
+
+.swiper-button-next {
+  right: 10px;
+  width: 5%;
+}
+
+.grid-of-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.grid-of-cards .album-card {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
