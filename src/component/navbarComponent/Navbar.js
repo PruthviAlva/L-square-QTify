@@ -16,7 +16,7 @@ function Navbar({ searchData }) {
                 searchData={searchData}
             />
             <div className="feedback">
-                <Button style={{ color:'rgba(52, 201, 75, 1)' }} >Give Feedback</Button>
+                <Button style={{ color:'rgba(52, 201, 75, 1)', fontFamily: 'Poppins' }} >Give Feedback</Button>
             </div>
         </nav>
     )
